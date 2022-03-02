@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(21, 21, 50);
+  
+}
+
+@font-face {
+  font-family: "Header-Nav";
+  src: url("../fonts/MochiyPopPOne-Regular.ttf");
+  format: ("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "footer";
+  src: url("../fonts/Righteous-Regular.ttf");
+  format: ("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "new-text";
+  src: url("../fonts/MerriweatherSans-VariableFont_wght.ttf");
+  format: ("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  font-family: "Header-Nav";
+}
+nav {
+  font-family: "Header-Nav";
+ 
+}
+section {
+  font-family: "new-text";
+}
+footer {
+  font-family: "footer";
+}
+ 
